@@ -50,8 +50,9 @@ async function main() {
       const fileName = readlineSync.question('Enter the file name: ');
 
       // downloading
+      console.log('Downloading...');
       ytdl(url, { filter: (format) => format.itag === selected.itag }).pipe(
-        fs.createWriteStream(`${savePath}/${fileName}.${selected.container}`),
+        fs.createWriteStream(`${savePath}\\${fileName}.${selected.container}`),
       );
     } else {
       console.log('Not a valid Url');
