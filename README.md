@@ -4,12 +4,12 @@ This Node.js application allows you to download videos and audio from YouTube UR
 
 ## Features
 
-* Downloads videos and audio from YouTube.
-* Selects between video & audio, audio only, or video only formats.
-* Provides a list of available qualities for each format.
-* Prompts for the desired save path and filename.
-* Uses the `ytdl-core` library for efficient downloads.
-* Employs `readlineSync` for clear user interaction.
+- Downloads videos and audio from YouTube.
+- Selects between video & audio, audio only, or video only formats.
+- Provides a list of available qualities for each format.
+- Prompts for the desired save path and filename.
+- Uses the `ytdl-core` library for efficient downloads.
+- Employs `readlineSync` for clear user interaction.
 
 ## Installation
 
@@ -25,6 +25,7 @@ This Node.js application allows you to download videos and audio from YouTube UR
 5. Specify the save path and filename when prompted.
 
 ## Example
+
 ```bash
 Enter the video Url : https://www.youtube.com/watch?v=3176Sw8A0EE
 
@@ -56,11 +57,12 @@ Selected Option:
         Format -> video/mp4; codecs="avc1.64001F, mp4a.40.2"
         Audio Bitrate : 192
         Audio Quality : AUDIO_QUALITY_MEDIUM
-Enter a path for saving the file (example: C:\\Users\\John\\Desktop) :
+Enter a path for saving the file (example: C:\Users\John\Desktop) :
 C:\Users\John\Desktop
 Enter the file name:
 myvideo
 ```
+
 ## Additional Notes:
 
     Respect YouTube's Terms of Service and only download content you have the right to use.
@@ -71,4 +73,3 @@ myvideo
 
     ytdl-core library (https://github.com/fent/node-ytdl-core)
     readlineSync library (https://github.com/anseki/readline-sync)
-
