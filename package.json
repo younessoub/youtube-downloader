@@ -1,7 +1,7 @@
 {
-  "name": "ytdownloader",
+  "name": "youtube-downloader",
   "version": "1.0.0",
-  "description": "NodeJs youtube video downloader",
+  "description": "NodeJs youtube video/audio downloader",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,5 +11,10 @@
   "dependencies": {
     "readline-sync": "^1.4.10",
     "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }

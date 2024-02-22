@@ -56,7 +56,7 @@ Selected Option:
         Format -> video/mp4; codecs="avc1.64001F, mp4a.40.2"
         Audio Bitrate : 192
         Audio Quality : AUDIO_QUALITY_MEDIUM
-Enter the path for saving the file, example "C:\Users\John\Desktop":
+Enter a path for saving the file (example: C:\\Users\\John\\Desktop) :
 C:\Users\John\Desktop
 Enter the file name:
 myvideo
