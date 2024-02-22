@@ -26,51 +26,40 @@ This Node.js application allows you to download videos and audio from YouTube UR
 
 ## Example
 ```bash
-Enter the video Url : https://www.youtube.com/watch?v=MV_3Dpw-BRY
+Enter the video Url : https://www.youtube.com/watch?v=3176Sw8A0EE
 
 [1] videoandaudio
 [2] videoonly
 [3] audioonly
 [0] CANCEL
 
-Choose a format [1, 2, 3, 0]: 3
+Choose a format [1, 2, 3, 0]: 1
 
 [1] Option:
-        Quality -> tiny
-        QualityLablel -> null
-        Format -> audio/webm; codecs="opus"
-        Audio Bitrate : 160
+        Quality -> hd720
+        QualityLablel -> 720p
+        Format -> video/mp4; codecs="avc1.64001F, mp4a.40.2"
+        Audio Bitrate : 192
         Audio Quality : AUDIO_QUALITY_MEDIUM
 [2] Option:
-        Quality -> tiny
-        QualityLablel -> null
-        Format -> audio/mp4; codecs="mp4a.40.2"
-        Audio Bitrate : 128
-        Audio Quality : AUDIO_QUALITY_MEDIUM
-[3] Option:
-        Quality -> tiny
-        QualityLablel -> null
-        Format -> audio/webm; codecs="opus"
-        Audio Bitrate : 64
-        Audio Quality : AUDIO_QUALITY_LOW
-[4] Option:
-        Quality -> tiny
-        QualityLablel -> null
-        Format -> audio/webm; codecs="opus"
-        Audio Bitrate : 48
+        Quality -> medium
+        QualityLablel -> 360p
+        Format -> video/mp4; codecs="avc1.42001E, mp4a.40.2"
+        Audio Bitrate : 96
         Audio Quality : AUDIO_QUALITY_LOW
 [0] CANCEL
 
-Choose an option [1...4 / 0]: 1
+Choose an option [1, 2, 0]: 1
 Selected Option:
-        Quality -> tiny
-        QualityLablel -> null
-        Format -> audio/webm; codecs="opus"
-        Audio Bitrate : 160
+        Quality -> hd720
+        QualityLablel -> 720p
+        Format -> video/mp4; codecs="avc1.64001F, mp4a.40.2"
+        Audio Bitrate : 192
         Audio Quality : AUDIO_QUALITY_MEDIUM
-Enter the path for saving the file, example " C:\Users\John\Desktop ":
-.
-Enter the file name: nightcall
+Enter the path for saving the file, example "C:\Users\John\Desktop":
+C:\Users\John\Desktop
+Enter the file name:
+myvideo
 ```
 ## Additional Notes:
 
